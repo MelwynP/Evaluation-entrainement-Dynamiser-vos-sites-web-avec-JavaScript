@@ -24,7 +24,7 @@ function sonLaMain () {
 //Son lancer dé a chaque clique.
 function sonLancerDe () {
   let sonDe = document.createElement('audio');
-  sonDe.src = './son/dé.mp3';
+  sonDe.src = './son/de.mp3';
   sonDe.play ();
 }
 
@@ -75,7 +75,7 @@ function nouvellePartie () {
   document.getElementById('scoreTempoJ2').innerHTML =  0;
   document.getElementById('scoreTotalJ1').innerHTML =  0;
   document.getElementById('scoreTotalJ2').innerHTML =  0;
-  document.getElementById('imageDe').src = "./dé/dice-0.png";
+  document.getElementById('imageDe').src = "./de/dice-0.png";
 }
 
 //lance le dé avec la méthode random, donne la main si le dé = 1.
@@ -88,7 +88,7 @@ function lancerDe (){
         case 1 :
           sommeJ1 = 0;
           document.getElementById('scoreTempoJ1').innerHTML = 0;
-          document.getElementById('imageDe').src = './dé/dice-1.png'; 
+          document.getElementById('imageDe').src = './de/dice-1.png'; 
           laMainJ2 ();
           sonLaMain ();
           break;
@@ -98,22 +98,22 @@ function lancerDe (){
           document.getElementById('scoreTempoJ1').innerHTML = sommeJ1;
           break;
         case 3 :
-          document.getElementById('imageDe').src = './dé/dice-3.png';
+          document.getElementById('imageDe').src = './de/dice-3.png';
           sommeJ1 = sommeJ1 + lancer;
           document.getElementById('scoreTempoJ1').innerHTML = sommeJ1;
           break;
         case 4 :
-          document.getElementById('imageDe').src = './dé/dice-4.png';
+          document.getElementById('imageDe').src = './de/dice-4.png';
           sommeJ1 = sommeJ1 + lancer;
           document.getElementById('scoreTempoJ1').innerHTML = sommeJ1;
           break;
         case 5 :
-          document.getElementById('imageDe').src = './dé/dice-5.png';
+          document.getElementById('imageDe').src = './de/dice-5.png';
           sommeJ1 = sommeJ1 + lancer;
           document.getElementById('scoreTempoJ1').innerHTML = sommeJ1;
           break;
         case 6 :
-          document.getElementById('imageDe').src = './dé/dice-6.png';
+          document.getElementById('imageDe').src = './de/dice-6.png';
           sommeJ1 = sommeJ1 + lancer;
           document.getElementById('scoreTempoJ1').innerHTML = sommeJ1;
           break;
@@ -126,7 +126,7 @@ function lancerDe (){
         case 1 :
           sommeJ2 = 0;
           document.getElementById('scoreTempoJ2').innerHTML = 0;
-          document.getElementById('imageDe').src = './dé/dice-1.png'; 
+          document.getElementById('imageDe').src = './de/dice-1.png'; 
           laMainJ1 ();
           sonLaMain ();
           break;
@@ -136,22 +136,22 @@ function lancerDe (){
           document.getElementById('scoreTempoJ2').innerHTML = sommeJ2;
           break;
         case 3 :
-          document.getElementById('imageDe').src = './dé/dice-3.png';
+          document.getElementById('imageDe').src = './de/dice-3.png';
           sommeJ2 = sommeJ2 + lancer;
           document.getElementById('scoreTempoJ2').innerHTML = sommeJ2;
           break;
         case 4 :
-          document.getElementById('imageDe').src = './dé/dice-4.png';
+          document.getElementById('imageDe').src = './de/dice-4.png';
           sommeJ2 = sommeJ2 + lancer;
           document.getElementById('scoreTempoJ2').innerHTML = sommeJ2;
           break;
         case 5 :
-          document.getElementById('imageDe').src = './dé/dice-5.png';
+          document.getElementById('imageDe').src = './de/dice-5.png';
           sommeJ2 = sommeJ2 + lancer;
           document.getElementById('scoreTempoJ2').innerHTML = sommeJ2;
           break;
         case 6 :
-          document.getElementById('imageDe').src = './dé/dice-6.png';
+          document.getElementById('imageDe').src = './de/dice-6.png';
           sommeJ2 = sommeJ2 + lancer;
           document.getElementById('scoreTempoJ2').innerHTML = sommeJ2;
           break;
