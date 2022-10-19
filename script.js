@@ -93,7 +93,7 @@ function lancerDe (){
           sonLaMain ();
           break;
         case 2 :
-          document.getElementById('imageDe').src = './dé/dice-2.png';
+          document.getElementById('imageDe').src = './de/dice-2.png';
           sommeJ1 = sommeJ1 + lancer;
           document.getElementById('scoreTempoJ1').innerHTML = sommeJ1;
           break;
@@ -131,7 +131,7 @@ function lancerDe (){
           sonLaMain ();
           break;
         case 2 :
-          document.getElementById('imageDe').src = './dé/dice-2.png';
+          document.getElementById('imageDe').src = './de/dice-2.png';
           sommeJ2 = sommeJ2 + lancer;
           document.getElementById('scoreTempoJ2').innerHTML = sommeJ2;
           break;
