@@ -26,7 +26,7 @@ em{
   left: 70%;
 }
 
-.notice{
+#notice{
   border: none;
   font-size: 14px;
   font-weight: 600;
@@ -185,7 +185,7 @@ em{
 .scoreTemporairePlayerOne, .scoreTemporairePlayerTwo{
   height: 85px;
   width: 100px;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(235, 116, 116);
   border-radius: 2px 2px 2px 2px;
   position: absolute;
   bottom: 95px;
@@ -268,7 +268,7 @@ svg{
   .scoreTemporairePlayerOne, .scoreTemporairePlayerTwo{
   height: 70px;
   width: 85px;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(235, 116, 116);
   position:absolute ;
   bottom: 165px;
   }
@@ -289,6 +289,13 @@ svg{
 
   p.pPlayers{
   font-size: 1.7em;
+  font-weight: 900;
+  text-align: center;
+  }
+
+  p.pScoreTempo{
+  font-size: 0.8em;
+  padding-top: 5px;
   font-weight: 900;
   text-align: center;
   }
@@ -400,7 +407,7 @@ svg{
   .scoreTemporairePlayerTwo, .scoreTemporairePlayerOne{
   height: 70px;
   width: 85px;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(235, 116, 116);
   position:absolute ;
   bottom: 140px;
   }
@@ -412,8 +419,8 @@ svg{
   }
 
   p.pScoreTempo{
-  font-size: 1em;
-  margin: 0px;
+  font-size: 0.8em;
+  padding-top: 5px;
   font-weight: 900;
   text-align: center;
   }

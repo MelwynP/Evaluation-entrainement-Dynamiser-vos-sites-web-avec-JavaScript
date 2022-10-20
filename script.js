@@ -39,14 +39,17 @@ function sonVictoire () {
 document.getElementById('regleDuJeu').style.visibility='hidden';
 
 //Ouvrir la règle du jeu.
-function ouvrirNotice () {
+const ouvrirNotice = document.getElementById('notice');
+ouvrirNotice.addEventListener('click', function () {
   document.getElementById('regleDuJeu').style.visibility='visible';
-}
+});
 
 //Ferme la règle du jeu.
-function fermerNotice () {
+const fermerNotice = document.getElementById('fermerNotice');
+fermerNotice.addEventListener('click', function () {
   document.getElementById('regleDuJeu').style.visibility='hidden';
-}
+});
+
 
 //La main J1.
 function laMainJ1 () {
@@ -206,6 +209,7 @@ function victoire () {
 //Gif caché.
 document.getElementById('victoire').style.visibility='hidden';
 //Bouton ok qui ferme le gif.
-function bravo () {
+const fermerGif = document.getElementById('btnGif');
+fermerGif.addEventListener('click', function () {
   document.getElementById('victoire').style.visibility='hidden';
-}
+});
