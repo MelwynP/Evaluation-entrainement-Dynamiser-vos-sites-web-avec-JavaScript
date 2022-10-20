@@ -35,7 +35,7 @@ em{
 }
 
 #regleDuJeu{
-  height: 94%;
+  height: 90%;
   width: 60%;
   position: absolute;
   top: 50%;
@@ -50,7 +50,7 @@ em{
   padding: 30px;
   color: rgb(26, 17, 17);
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 /* Aniamtion gif victoire  et bouton*/
@@ -244,7 +244,7 @@ svg{
   padding: 20px;
   color: rgb(0, 0, 0);
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.2em;
   }
 }
 
@@ -360,7 +360,7 @@ svg{
   .pRegleDuJeu{
   padding: 10px;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.1em;
   }
 
   #victoire{
