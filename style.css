@@ -10,7 +10,6 @@ div.container{
   height: 100vh;
   background-color: rgba(139, 89, 89, 0.994);
   display: flex;
-  border-radius: 5px 5px 5px 5px;
   padding: 2% 2% 2% 2%;
   font-family: 'Lato', sans-serif;
 }
@@ -397,18 +396,26 @@ svg{
   font-size: 0.9em;
   }
   
-  .boutonNotice{
-    position: absolute;
-    top: 15px;
-    left: 65%;
+  
+  .scoreTemporairePlayerTwo, .scoreTemporairePlayerOne{
+  height: 70px;
+  width: 85px;
+  background-color: rgb(255, 0, 0);
+  position:absolute ;
+  bottom: 140px;
   }
 
-  .scoreTemporairePlayerTwo, .scoreTemporairePlayerOne{
-    height: 70px;
-    width: 85px;
-    background-color: rgb(255, 0, 0);
-    position:absolute ;
-    bottom: 140px;
+  p.pPlayers{
+  font-size: 1.4em;
+  font-weight: 900;
+  text-align: center;
+  }
+
+  p.pScoreTempo{
+  font-size: 1em;
+  margin: 0px;
+  font-weight: 900;
+  text-align: center;
   }
 
   .boutonHold{
@@ -418,10 +425,48 @@ svg{
   transform: translate(-50px, -50px);
   }
 
+  .BHold{
+  border: none;
+  font-size: 1em;
+  font-weight: 900;
+  color: black;
+  background-color: transparent;
+  }
+
+  .boutonNewGame{
+  position: absolute;
+  top: 110px;
+  left: 50%;
+  transform: translate(-70px, -50px);
+  }
+
+  .BNewGame{
+  border: none;
+  font-size: 1em;
+  font-weight: 900;
+  color: black;
+  background-color: transparent;
+  }
+
   .boutonlancerDe{
   position: absolute;
   bottom: 50px;
   left: 50%;
   transform: translate(-65px, -45px);
   }
+
+  .BRde{
+  border: none;
+  font-size: 1em;
+  font-weight: 900;
+  color: black;
+  background-color: transparent;
+  }
+
+  .boutonNotice{
+  position: absolute;
+  top: 15px;
+  left: 65%;
+  }
+
 }
