@@ -8,7 +8,7 @@ let scoreTotalJ2  = 0;
 let jeuEncour = 0;
 
 //Son à chaque lancement d'une nouvelle Partie.
-function sonNewGame (){
+function sonNewGame () {
   let sonNewGame = document.createElement('audio');
   sonNewGame.src = './son/nouvellePartie.mp3';
   sonNewGame.play ();
@@ -82,7 +82,7 @@ function nouvellePartie () {
 }
 
 //lance le dé avec la méthode random, donne la main si le dé = 1.
-function lancerDe (){  
+function lancerDe () {  
   if(jeuEncour == 1) {
     sonLancerDe ();
     lancer = Math.floor(Math.random() * 6) + 1;
